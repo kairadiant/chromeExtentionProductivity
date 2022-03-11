@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    </style>
+  </head>
+  
+  <body>
+    <div class="container" id="top-wrapper">
+
+            <!-- TIMER -->
+    <div class="container" id=top-container>
+      <h6 style="text-align: center;">pomo</h6>
+      <!-- <br> -->
+      <div id="timer-container">
+      <h1 class="single-line" id="timer-min" contenteditable="true">25</h1>
+      <h1>:</h1>
+      <h1 class="" id="timer-sec">00</h1>
+      </div>
+      <button class="btn btn-primary" id="start-timer">&#9658;</button>
+      <a class="btn btn-warning" id="reset-timer">&#8635;</a>
+      
+    </div>
+
+
+    <!-- <hr> -->
+  </div>
+  <a class="btn btn-secondary btn-block" id="collapsible">Todos<h6></h6>  <h6 id="collapsible-text">+</h6></a>
+
+  <!--  TODO LIST  -->
+    <div  id="bottom-container">
+      <div id="bottom-wrapper">
+
+      <div id=todo-container> 
+        <ul id="todo-list"</ul>
+         <!-- <ul ></ul> -->
+     </div> 
+     <!-- <br> -->
+     <hr>
+
+     <div id="todo-form-wrapper">
+     <input type='text' autocomplete="off" id="todo-field"></input> 
+     <br>
+     <a class="btn btn-primary" id="add-todo">Add</a>
+     &nbsp; &nbsp;
+     <a class="btn btn-warning" id="clear-todos">Clear</a>
+    </div>
+      
+      <!-- <br> -->
+    
+      <!-- <br> -->
+     </div>
+      <!-- </div> -->
+    </div>
+
+  <!-- </div> -->
+      <script src="popup.js"></script>
+
+  </body>
+</html>
